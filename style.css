@@ -2,7 +2,7 @@
 body {
   background-image: 
   linear-gradient(to bottom, rgb(247, 243, 243), rgba(255,0,0,0)100%),
-  url("/Users/kellycao/Desktop/gradient.png");
+  url("gradient Small.jpeg");
   background-size: 100%;
   min-height: 100vh;
   margin:0px;
