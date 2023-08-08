@@ -11,9 +11,10 @@ body {
  }
 p{
   font-family: 'JetBrains Mono', monospace;
-  line-height: 1.5;
+  line-height: 1.75;
   text-align: center;
   font-size: larger;
+
 
 }
 
@@ -48,7 +49,9 @@ p{
   font-size: 26px;
  }
  .text{
-  margin:2rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+
  }
 .navbar {
   overflow: hidden;
@@ -178,14 +181,18 @@ p{
   display: flex;
   flex-wrap: wrap; /* This ensures flex items wrap to the next line on small screens */
   margin-top: 10rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  justify-content: center;
+
+
 }
 
 
 .box {
   flex: 1; /* Each box will take equal space in the container */
   min-width: 300px; /* Set a minimum width for the boxes */
-  margin: 10px; /* Add some spacing between boxes */
-  padding: 20px;
+  margin: 1rem; /* Add some spacing between boxes */
   font-family: 'JetBrains Mono', monospace;
 
 
@@ -201,15 +208,17 @@ p{
   display: flex;
   flex-wrap: wrap;
   margin: auto;
+  max-width: 1000px;
 }
 
 .container2 div {
 
   border-radius: 5px;
   text-align: center;
-  background-color: #FFA79E;
+  background-color: rgba(255, 255, 255, 0.658);
+  
   border-style: solid;
-  border-color:black;
+  border-color:#FFA79E;
   border-width: 0.5rem;
   
 
@@ -218,13 +227,15 @@ p{
 .container3 {
   display: flex;
   flex-wrap: wrap;
+  margin: auto;
+  max-width: 1000px;
 }
 .container3 div {
   border-radius: 5px;
   text-align: center;
   border-style: solid;
-  background-color: #C7FFE1;
-  border-color:black;
+  background-color: rgba(255, 255, 255, 0.658);
+  border-color:#C7FFE1;
   border-width: 0.5rem;
   
 }
@@ -255,9 +266,10 @@ footer u{
 
 footer p{
   text-align: center;
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
   background-color:#A49CFF;
+  font-size: small;
 }
 
 .wave {
