@@ -333,7 +333,7 @@ align-items: center;
 
 footer{
   padding-top: 1rem;
-  background-color: #fbfbfb60;
+  background-color: #a49cff9a;
 }
 footer u{
   color: #FFF5BA;
@@ -343,7 +343,8 @@ footer p{
   text-align: center;
   margin-left: 7rem;
   margin-right: 7rem;
-  background-color:#fbfbfb60;
+  background-color:#a49cff00;
+
   font-size:large;
 }
 
@@ -351,7 +352,7 @@ footer p{
 
 .icons{
   text-align: center;
-  background-color:#fbfbfb60;
+
 
 }
 i{
