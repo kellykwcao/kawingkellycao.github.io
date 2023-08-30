@@ -1,4 +1,4 @@
-//typing text animation
+//typing text animation from stackoverflow
 function setupTypewriter(t) {
     var HTML = t.innerHTML;
 
@@ -70,5 +70,23 @@ typewriter = setupTypewriter(typewriter);
 
 typewriter.type();
 
-//carousel
+// Add this code to your script.js
+const sections = document.querySelectorAll('.fade-in');
 
+const revealSection = (entries, observer) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('active');
+      observer.unobserve(entry.target);
+    }
+  });
+};
+
+const sectionObserver = new IntersectionObserver(revealSection, {
+  root: null,
+  threshold: 0.2 // Adjust this threshold as needed
+});
+
+sections.forEach(section => {
+  sectionObserver.observe(section);
+});
